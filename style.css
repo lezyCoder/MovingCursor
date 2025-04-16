@@ -1,0 +1,54 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main box */
+#main {
+  width: 1000px;
+  height: 500px;
+  background-color: #222;
+  position: relative;
+  /* border: 1px solid red; */
+  background-image: url("https://media.istockphoto.com/id/1327433011/photo/pav-bhaji-indian-street-food-bharuch-gujarat-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=wuk8_FqsHJwFTKvpAMt6iA7fsN0zROVmeSpJ9O9_cmE=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+/* Custom cursor */
+#cursor {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  color: #111;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
